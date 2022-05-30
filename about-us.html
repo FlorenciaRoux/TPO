@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="fotos/vitadolce.ico">
+    <link rel="stylesheet" href="styles1.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/30052c5fbf.js" crossorigin="anonymous"></script>
+    <title>Sobre nosotros</title>
+</head>
+<body>
+    <div id="container-about-us">
+      <header class="item header">  
+            <div class="nav-container">
+              <a href="index.html"><img id=logo src="fotos/vita-logo.png" alt="Logo Vita Dolce"></a>
+              <nav class="item nav">
+                <label for="menu" class="nav-label">
+                    <img src="assets/menu.svg" alt="" class="nav-img">
+                </label>
+                <input type="checkbox" id="menu" class="nav-input">
+               <ul class="nav-menu">
+                <li class="li-1"><a href="index.html#">Inicio</a></li>
+                <li class="li-2"><a href="about-us.html">Sobre nosotros</a></li>
+                <li class="li-3"><a href="cake-gallery.html">Cake gallery</a></li>
+                <li class="li-4"><a href="about-us.html#contacto">Contactanos</a></li>
+                <li class="li-5"><a href="#" ><i class="fa-brands fa-instagram icon-1"></i></a></li>
+                <li class="li-6"><a href="#"><i class="fa-brands fa-facebook icon-2"></i></a></li>
+                <li class="li-7"><a href="#"><i class="fa-solid fa-location-dot icon"></i></a></li>
+              </ul>
+              </nav> 
+            </div>
+     </header>
+      <main>
+        <div class="process-container">
+                 <section class="process-1"> <img src="fotos/proceso1.jpg" alt="Decoracion de torta estilo drip cake"></section>
+                 <section class="process-2"><img src="fotos/proceso2.jpg" alt="Decoracion de drip cake con frutos rojos"> </section>
+                 <section class="sobre-nosotros"><h4>¿Quienes somos?</h4><p>Vita Dolce es un emprendimiento familiar, con mas de 5 años de trayectoria. Brindamos una atencion 100% personalizada, es por ello que no contamos con stocks diarios mas allá de nuestra seleccion de postres.</p></section>
+                 <section class="pedidos"><h4>¿Como realizar un pedido?</h4><p> Queremos brindar la mejor experiencia y calidad a cada uno de nuestros clientes, por lo que los pedidos se realizan a traves del formulario de contacto o redes sociales. Una vez que el cliente se pone en contacto, nos encargamos de comunicarnos para concretar el pedido.
+                 </p></section>
+                 <section class="process-3"> <img src="fotos/proceso3.jpg" alt="Decoracion de torta estilo drip cake"></section>
+                 <section class="process-4"><img src="fotos/proceso4.jpg" alt="Decoracion de torta estilo drip cake"> </section>
+            </div>
+            <div class="iframe">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13130.435815629411!2d-58.44698313251461!3d-34.63932106688871!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccbb708265edf%3A0x438965c0f69a5692!2sSaraza%2C%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1652811856333!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <p> Saraza 123<br>
+                    Parque Chacabuco<br>
+                    Buenos Aires, Argentina</p>
+                <br>
+                <p>Los pedidos se realizan con un minimo de 7 dias de anticipacion. El envio de formulario y/o contacto por redes sociales no es un compromiso de compra ¡no dudes en consultarnos!</p>
+            </div>
+            <div class="form-container" id="contacto">
+                
+                <form action="" method="post" id="form">
+                    <div class="form">
+                        <h3>Contactanos</h3>
+                        <div class="grupo">
+                            <input type="text" name="" id="name"><span class="barra"></span>
+                            <label for="">Nombre</label>
+                        </div>
+                        <div class="grupo">
+                            <input type="text" name="" id="email" ><span class="barra"></span>
+                            <label for="">Email</label>
+                        </div>
+                        <div class="grupo">
+                            <input type="number" name="" id="phonenumber"><span class="barra"></span>
+                            <label for="">Teléfono</label>
+                        </div>
+                        <div class="grupo">
+                            <textarea type="text" name="" id="textarea" rows="3"></textarea>
+                            <label for="">¡Dejanos tu mensaje!</label>
+                        </div>
+                         <button type="submit">Enviar</button>
+                         
+                         <p class="warnings" id="warnings"></p>
+                    </div>
+                </form>
+        </div>
+        <div class="about-us">
+          <p>About us</p>
+        </div>
+     </main>
+        <footer class="footer">
+            <span>Contacto</span>
+            <span><p>Saraza 123 <br> Parque Chacabuco <br> Buenos Aires, Argentina <br> Lunes a Domingo de 8 a 19:30 hs</p>
+            </span>
+            <span class="icon-footer">
+                <a href="#"><i class="fa-brands fa-instagram fa-xl icon-3"></i></a> <a href="#"><i class="fa-brands fa-facebook fa-xl icon-4"></i></a> 
+            </span>
+        </footer>
+    </div>
+    <script src="formulario.js"></script>
+</body>
+</html>
