@@ -278,12 +278,12 @@ body{
     color: rgb(231, 199, 237);
     border-bottom: 2.5px solid rgb(231, 199, 237) ;
 }
-.cg-container .nav li a:hover{
+.cg-container .nav li a:hover, .cg-container .footer a:hover{
     color: rgb(231, 199, 237);
 
 }
 
-.cg-container .nav a:link, .cg-container nav a:visited{
+.cg-container .nav a:link, .cg-container nav a:visited, .footer a:link, .footer a:visited{
     color: black;
 }
 .cg-container .header .nav-container #logo{
