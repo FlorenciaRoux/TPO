@@ -1,5 +1,4 @@
 *{
-    /* background-color: white; */
     box-sizing: border-box;
     margin: 0;
    
@@ -344,7 +343,12 @@
     color: rgb(231, 199, 237) ;
     border: 1.5px solid  rgb(231, 199, 237); 
 }
-
+.nav-label, .nav-input{
+    display: none;
+}
+.footer .icon-footer i{
+    margin-left: 1em;
+}
 @media screen and (max-width: 500px) {
     form{
         width: 80%;
@@ -375,5 +379,26 @@
     #container-about-us form input:valid~label, 
     #container-about-us textarea:valid~label{
         font-size: 12px;
-}
-}
+    }
+   .nav-label{
+                display:block;
+                cursor: pointer;
+            }
+   .nav-menu{
+                position: fixed;
+                top: 4em;
+                bottom: 0;
+                background:rgb(248, 248, 248) ;
+                width: 100%;
+                left: 0;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-evenly;
+                align-items: center;
+                clip-path: circle(0 at center);
+                transition: clip-path 1s ease-in-out;
+            }
+    .nav-input:checked + .nav-menu{
+                clip-path: circle(100% at center);
+            }
+  }
