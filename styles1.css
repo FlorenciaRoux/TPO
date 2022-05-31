@@ -489,7 +489,7 @@
 .footer .icon-footer i{
     margin-left: 1em;
 }
-.nav-label, .nav-input{
+#container-about-us .nav-label, #container-about-us .nav-input{
     display: none;
 }
 @media screen and (max-width: 500px) {
